@@ -13,6 +13,14 @@ This web app is made in **React js** with **graphql** backend which links with *
 - finally for messaging cd into server and run `npm start`
 - Go to https://localhost:3000/ to view the app.
 
+## Setup Google API for maps and Database (MongoDB):
+- For MongoDB go to its official website and make an account.
+- Next make a cluster in it and copy its key.
+- Open the project and make a file called nodemon.json
+- make variable MONGO_USER, MONGO_PASSWORD and MONGO_DB and store your creditials over there.
+- Also make a similary file called .env.local inside components folder and store your GCP cluster key in a variable called REACT_APP_GOOGLE_MAPS_API_KEY.
+- Now you are ready to use the app.
+
 References:
 I followed a few tutorials online to make this app: <br>
 https://www.youtube.com/watch?v=7giZGFDGnkc&list=PL55RiY5tL51rG1x02Yyj93iypUuHYXcB <br>
